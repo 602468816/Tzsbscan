@@ -38,7 +38,7 @@ public final class R {
     }
     public static final class id {
         public static final int about_version_code=0x7f07000e;
-        public static final int action_settings=0x7f070018;
+        public static final int action_settings=0x7f070019;
         /**  Messages IDs 
          */
         public static final int auto_focus=0x7f070000;
@@ -54,6 +54,7 @@ public final class R {
         public static final int include1=0x7f070012;
         public static final int launch_product_query=0x7f070006;
         public static final int preview_view=0x7f070010;
+        public static final int progress=0x7f070018;
         public static final int quit=0x7f070007;
         public static final int restart_preview=0x7f070008;
         public static final int return_scan_result=0x7f070009;
@@ -70,6 +71,7 @@ public final class R {
         public static final int activity_main=0x7f030001;
         public static final int activity_title=0x7f030002;
         public static final int activity_web=0x7f030003;
+        public static final int progress=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;

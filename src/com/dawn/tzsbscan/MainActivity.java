@@ -12,6 +12,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		UpdateManager mUpdateManger = new UpdateManager(MainActivity.this);// 注意此处不能传入getApplicationContext();会报错，因为只有是一个Activity才可以添加窗体
+		mUpdateManger.checkUpdateInfo();
 	}
 
 	@Override
